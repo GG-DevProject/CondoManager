@@ -13,26 +13,26 @@
 
 ```
 CondoManager/
-├── backend/                # Backend (Python)
-│   ├── app.py              # Arquivo principal do backend
-│   ├── database.py         # Configurações do banco de dados
-│   ├── models.py           # Modelos do banco de dados
-│   ├── routes.py           # Rotas do sistema
-│   ├── backup.json         # Backup do banco de dados
-├── frontend/               # Frontend (Vue.js)
-│   ├── public/             # Arquivos estáticos (HTML)
-│   │   ├── index.html      # Página inicial
-│   ├── src/                # Código Vue.js
-│   │   ├── components/     # Componentes Vue.js
+├── backend/                      # Backend (Python)
+│   ├── app.py                    # Arquivo principal do backend
+│   ├── database.py               # Configurações do banco de dados
+│   ├── models.py                 # Modelos do banco de dados
+│   ├── routes.py                 # Rotas do sistema
+│   ├── backup.json               # Backup do banco de dados
+├── frontend/                     # Frontend (Vue.js)
+│   ├── public/                   # Arquivos estáticos (HTML)
+│   │   ├── index.html            # Página inicial
+│   ├── src/                      # Código Vue.js
+│   │   ├── components/           # Componentes Vue.js
 │   │   │   ├── Dashboard.vue
 │   │   │   ├── Financeiro.vue
 │   │   │   ├── Manutencao.vue
 │   │   │   ├── Reservas.vue
-│   │   ├── App.vue         # Componente principal
-│   │   ├── router.js       # Rotas do frontend
-│   ├── vuetify.js          # Configuração do Vuetify
-├── docker-compose.yml      # Configuração Docker
-├── README.md               # Documentação do projeto
+│   │   ├── App.vue               # Componente principal
+│   │   ├── router.js             # Rotas do frontend
+│   ├── vuetify.js                # Configuração do Vuetify
+├── docker-compose.yml            # Configuração Docker
+├── README.md                     # Documentação do projeto
 ```
 
 ## Funcionalidades
